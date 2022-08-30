@@ -54,13 +54,21 @@ Character classes are represented by `a-f0-9`. This means that at least 1 charac
 
 ### OR Operator
 
+The `|` is an OR Operator that determines the character classes and grouping constructs within Bracket Expressions.
+
+The hex regex snippet, `/^#?([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$/`, will allow either 6 OR 3 characters to match `[a-fA-F0-9]`, after the`#`. (ex: #dA5)
+
+### Bracket Expressions
+
+Bracket Expressions are these `[]`. Bracket expressions contain the allowed characters, character classes, and/or expressions to help match whatever the hex expression is looking for. This means that `[a-fA-F0-9]` is looking for a secific combination of the following `[abcdefABCDEF0123456789]`
+
 ### Flags
+
+Flags can be used to limit the functionality of a regex. Here are example of some flags: `d, g, i, m, s, u, y`
 
 ### Grouping and Capturing
 
 The `()` are a grouping construct that captures whatever it is we're trying to match within it. It makes the values one unit so that the match is exact.
-
-### Bracket Expressions
 
 ### Greedy and Lazy Match
 
