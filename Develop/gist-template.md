@@ -62,22 +62,14 @@ The hex regex snippet, `/^#?([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$/`, will allow eithe
 
 Bracket Expressions are these `[]`. Bracket expressions contain the allowed characters, character classes, and/or expressions to help match whatever the hex expression is looking for. This means that `[a-fA-F0-9]` is looking for a secific combination of the following `[abcdefABCDEF0123456789]`
 
-### Flags
-
-Flags can be used to limit the functionality of a regex. Here are example of some flags: `d, g, i, m, s, u, y`
-
 ### Grouping and Capturing
 
 The `()` are a grouping construct that captures whatever it is we're trying to match within it. It makes the values one unit so that the match is exact.
 
-### Greedy and Lazy Match
+### Flags
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+Flags can be used to limit the functionality of a regex. Here are example of some flags: `d, g, i, m, s, u, y`
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi, I'm Christa, an aspiring email an UI developer making my way through learning backend frameworks like MySQL and MongoDB 😅, while deepening my love for HTML and CSS. Check out my projects here: https://github.com/cnewing
