@@ -46,13 +46,19 @@ The next anchor, `$/`, has the assertion `$`. This requires whatever is placed b
 
 ### Quantifiers
 
-### OR Operator
+A quantifier lets us know how many characters can be used in the expression. In our hex regex snippet, `{}` are the qauntifiers and the value inside is the parameter that needs to be met. `[a-fA-F0-9]{6}`means 6 characters are required or `[a-fA-F0-9]{3}`means 3 characters are required.
 
 ### Character Classes
+
+Character classes are represented by `a-f0-9`. This means that at least 1 character will need to be any letter between a and f or any digit between 0 and 9.
+
+### OR Operator
 
 ### Flags
 
 ### Grouping and Capturing
+
+The `()` are a grouping construct that captures whatever it is we're trying to match within it. It makes the values one unit so that the match is exact.
 
 ### Bracket Expressions
 
